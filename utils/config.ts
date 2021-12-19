@@ -2,14 +2,11 @@ import { config as dotenvConfig } from "dotenv";
 dotenvConfig();
 
 interface IConfig {
-  rinkeby: {
+  goerli: {
     provider_url: string;
     private_key: string;
   };
-  mainnet: {
-    provider_url: string;
-    private_key: string;
-  };
+  solana_wallet_path: string;
 }
 
 export const getEnv = (key: string, defaultValue?: any) => {
@@ -31,12 +28,9 @@ export const getEnv = (key: string, defaultValue?: any) => {
 };
 
 export const envconfig: IConfig = {
-  rinkeby: {
-    provider_url: getEnv("RINKEBY_PROVIDER_URL", ""),
-    private_key: getEnv("RINKEBY_PRIVATE_KEY", ""),
+  goerli: {
+    provider_url: getEnv("GOERLI_PROVIDER_URL", ""),
+    private_key: getEnv("GOERLI_PRIVATE_KEY", ""),
   },
-  mainnet: {
-    provider_url: getEnv("MAINNET_PROVIDER_URL", ""),
-    private_key: getEnv("MAINNET_PRIVATE_KEY", ""),
-  },
+  solana_wallet_path: getEnv("SOLANA_WALLET_PATH", ""),
 };

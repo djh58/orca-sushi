@@ -1,0 +1,374 @@
+{
+  "address": "0x8a2125d3d9d20562752217CfcA19F64Bd5d1c138",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "dai",
+      "outputs": [
+        {
+          "internalType": "contract IERC20",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address[]",
+          "name": "path",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amountIn",
+          "type": "uint256"
+        }
+      ],
+      "name": "getAmountOut",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "greeting",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "slippageDenominator",
+      "outputs": [
+        {
+          "internalType": "uint24",
+          "name": "",
+          "type": "uint24"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "slippageNumerator",
+      "outputs": [
+        {
+          "internalType": "uint24",
+          "name": "",
+          "type": "uint24"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "sushiFactory",
+      "outputs": [
+        {
+          "internalType": "contract IUniswapV2Factory",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "sushiRouter",
+      "outputs": [
+        {
+          "internalType": "contract IUniswapV2Router02",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "swap",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "tokens",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "usdc",
+      "outputs": [
+        {
+          "internalType": "contract IERC20",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "weth",
+      "outputs": [
+        {
+          "internalType": "contract IERC20",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x32041cffb76ce3c2e2bce3036a48551f6caf9d5285ee7cf0abafcbcd70251ae4",
+  "receipt": {
+    "to": null,
+    "from": "0x1c13f4DED4e77d2a7c3ADBAc203D2a0250fb41D7",
+    "contractAddress": "0x8a2125d3d9d20562752217CfcA19F64Bd5d1c138",
+    "transactionIndex": 2,
+    "gasUsed": "1093582",
+    "logsBloom": "0x00000000000000000000000000100000000000000000000000000000020000000000000000002000000000000000000000000000000000000000020000200000000000000400000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000020000000000000000000000000000000000000000000000000000000000020000000000000000000000000000002000000000000010000000000000000000004000000000000400000000000000010000000000000000000000000000000010000000000000000000000000000000000000000000000000000000002200",
+    "blockHash": "0x14a6eb3c091c87b0109f4bd9b3712dcae0c53844975c2d76719c3016149831f3",
+    "transactionHash": "0x32041cffb76ce3c2e2bce3036a48551f6caf9d5285ee7cf0abafcbcd70251ae4",
+    "logs": [
+      {
+        "transactionIndex": 2,
+        "blockNumber": 6048308,
+        "transactionHash": "0x32041cffb76ce3c2e2bce3036a48551f6caf9d5285ee7cf0abafcbcd70251ae4",
+        "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "topics": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x0000000000000000000000008a2125d3d9d20562752217cfca19f64bd5d1c138",
+          "0x0000000000000000000000001b02da8cb0d097eb8d57a175b88c7d8b47997506"
+        ],
+        "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "logIndex": 2,
+        "blockHash": "0x14a6eb3c091c87b0109f4bd9b3712dcae0c53844975c2d76719c3016149831f3"
+      },
+      {
+        "transactionIndex": 2,
+        "blockNumber": 6048308,
+        "transactionHash": "0x32041cffb76ce3c2e2bce3036a48551f6caf9d5285ee7cf0abafcbcd70251ae4",
+        "address": "0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C",
+        "topics": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x0000000000000000000000008a2125d3d9d20562752217cfca19f64bd5d1c138",
+          "0x0000000000000000000000001b02da8cb0d097eb8d57a175b88c7d8b47997506"
+        ],
+        "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "logIndex": 3,
+        "blockHash": "0x14a6eb3c091c87b0109f4bd9b3712dcae0c53844975c2d76719c3016149831f3"
+      },
+      {
+        "transactionIndex": 2,
+        "blockNumber": 6048308,
+        "transactionHash": "0x32041cffb76ce3c2e2bce3036a48551f6caf9d5285ee7cf0abafcbcd70251ae4",
+        "address": "0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
+        "topics": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x0000000000000000000000008a2125d3d9d20562752217cfca19f64bd5d1c138",
+          "0x0000000000000000000000001b02da8cb0d097eb8d57a175b88c7d8b47997506"
+        ],
+        "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "logIndex": 4,
+        "blockHash": "0x14a6eb3c091c87b0109f4bd9b3712dcae0c53844975c2d76719c3016149831f3"
+      }
+    ],
+    "blockNumber": 6048308,
+    "cumulativeGasUsed": "1265726",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "5b50e8d2d1b8dc270cdeddd266cbe4a5",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"dai\",\"outputs\":[{\"internalType\":\"contract IERC20\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address[]\",\"name\":\"path\",\"type\":\"address[]\"},{\"internalType\":\"uint256\",\"name\":\"amountIn\",\"type\":\"uint256\"}],\"name\":\"getAmountOut\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"greeting\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"slippageDenominator\",\"outputs\":[{\"internalType\":\"uint24\",\"name\":\"\",\"type\":\"uint24\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"slippageNumerator\",\"outputs\":[{\"internalType\":\"uint24\",\"name\":\"\",\"type\":\"uint24\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"sushiFactory\",\"outputs\":[{\"internalType\":\"contract IUniswapV2Factory\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"sushiRouter\",\"outputs\":[{\"internalType\":\"contract IUniswapV2Router02\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"swap\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"tokens\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"usdc\",\"outputs\":[{\"internalType\":\"contract IERC20\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"weth\",\"outputs\":[{\"internalType\":\"contract IERC20\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/SushiClient.sol\":\"SushiClient\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity >=0.6.0 <0.8.0;\\n\\n/**\\n * @dev Interface of the ERC20 standard as defined in the EIP.\\n */\\ninterface IERC20 {\\n    /**\\n     * @dev Returns the amount of tokens in existence.\\n     */\\n    function totalSupply() external view returns (uint256);\\n\\n    /**\\n     * @dev Returns the amount of tokens owned by `account`.\\n     */\\n    function balanceOf(address account) external view returns (uint256);\\n\\n    /**\\n     * @dev Moves `amount` tokens from the caller's account to `recipient`.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transfer(address recipient, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Returns the remaining number of tokens that `spender` will be\\n     * allowed to spend on behalf of `owner` through {transferFrom}. This is\\n     * zero by default.\\n     *\\n     * This value changes when {approve} or {transferFrom} are called.\\n     */\\n    function allowance(address owner, address spender) external view returns (uint256);\\n\\n    /**\\n     * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * IMPORTANT: Beware that changing an allowance with this method brings the risk\\n     * that someone may use both the old and the new allowance by unfortunate\\n     * transaction ordering. One possible solution to mitigate this race\\n     * condition is to first reduce the spender's allowance to 0 and set the\\n     * desired value afterwards:\\n     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729\\n     *\\n     * Emits an {Approval} event.\\n     */\\n    function approve(address spender, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Moves `amount` tokens from `sender` to `recipient` using the\\n     * allowance mechanism. `amount` is then deducted from the caller's\\n     * allowance.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transferFrom(address sender, address recipient, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Emitted when `value` tokens are moved from one account (`from`) to\\n     * another (`to`).\\n     *\\n     * Note that `value` may be zero.\\n     */\\n    event Transfer(address indexed from, address indexed to, uint256 value);\\n\\n    /**\\n     * @dev Emitted when the allowance of a `spender` for an `owner` is set by\\n     * a call to {approve}. `value` is the new allowance.\\n     */\\n    event Approval(address indexed owner, address indexed spender, uint256 value);\\n}\\n\",\"keccak256\":\"0x5f02220344881ce43204ae4a6281145a67bc52c2bb1290a791857df3d19d78f5\",\"license\":\"MIT\"},\"@sushiswap/core/contracts/uniswapv2/interfaces/IUniswapV2Factory.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity >=0.5.0;\\n\\ninterface IUniswapV2Factory {\\n    event PairCreated(address indexed token0, address indexed token1, address pair, uint);\\n\\n    function feeTo() external view returns (address);\\n    function feeToSetter() external view returns (address);\\n    function migrator() external view returns (address);\\n\\n    function getPair(address tokenA, address tokenB) external view returns (address pair);\\n    function allPairs(uint) external view returns (address pair);\\n    function allPairsLength() external view returns (uint);\\n\\n    function createPair(address tokenA, address tokenB) external returns (address pair);\\n\\n    function setFeeTo(address) external;\\n    function setFeeToSetter(address) external;\\n    function setMigrator(address) external;\\n}\\n\",\"keccak256\":\"0xcaec675e6250bf4cd3364459a0cbf789262af2aaa377d61d4d463f657aea7b50\",\"license\":\"GPL-3.0\"},\"@sushiswap/core/contracts/uniswapv2/interfaces/IUniswapV2Pair.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity >=0.5.0;\\n\\ninterface IUniswapV2Pair {\\n    event Approval(address indexed owner, address indexed spender, uint value);\\n    event Transfer(address indexed from, address indexed to, uint value);\\n\\n    function name() external pure returns (string memory);\\n    function symbol() external pure returns (string memory);\\n    function decimals() external pure returns (uint8);\\n    function totalSupply() external view returns (uint);\\n    function balanceOf(address owner) external view returns (uint);\\n    function allowance(address owner, address spender) external view returns (uint);\\n\\n    function approve(address spender, uint value) external returns (bool);\\n    function transfer(address to, uint value) external returns (bool);\\n    function transferFrom(address from, address to, uint value) external returns (bool);\\n\\n    function DOMAIN_SEPARATOR() external view returns (bytes32);\\n    function PERMIT_TYPEHASH() external pure returns (bytes32);\\n    function nonces(address owner) external view returns (uint);\\n\\n    function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external;\\n\\n    event Mint(address indexed sender, uint amount0, uint amount1);\\n    event Burn(address indexed sender, uint amount0, uint amount1, address indexed to);\\n    event Swap(\\n        address indexed sender,\\n        uint amount0In,\\n        uint amount1In,\\n        uint amount0Out,\\n        uint amount1Out,\\n        address indexed to\\n    );\\n    event Sync(uint112 reserve0, uint112 reserve1);\\n\\n    function MINIMUM_LIQUIDITY() external pure returns (uint);\\n    function factory() external view returns (address);\\n    function token0() external view returns (address);\\n    function token1() external view returns (address);\\n    function getReserves() external view returns (uint112 reserve0, uint112 reserve1, uint32 blockTimestampLast);\\n    function price0CumulativeLast() external view returns (uint);\\n    function price1CumulativeLast() external view returns (uint);\\n    function kLast() external view returns (uint);\\n\\n    function mint(address to) external returns (uint liquidity);\\n    function burn(address to) external returns (uint amount0, uint amount1);\\n    function swap(uint amount0Out, uint amount1Out, address to, bytes calldata data) external;\\n    function skim(address to) external;\\n    function sync() external;\\n\\n    function initialize(address, address) external;\\n}\",\"keccak256\":\"0x08f9a63b34855eec941be8d36a04424f1a1725a2c030373fcef3afeb480ca385\",\"license\":\"GPL-3.0\"},\"@sushiswap/core/contracts/uniswapv2/interfaces/IUniswapV2Router01.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity >=0.6.2;\\n\\ninterface IUniswapV2Router01 {\\n    function factory() external pure returns (address);\\n    function WETH() external pure returns (address);\\n\\n    function addLiquidity(\\n        address tokenA,\\n        address tokenB,\\n        uint amountADesired,\\n        uint amountBDesired,\\n        uint amountAMin,\\n        uint amountBMin,\\n        address to,\\n        uint deadline\\n    ) external returns (uint amountA, uint amountB, uint liquidity);\\n    function addLiquidityETH(\\n        address token,\\n        uint amountTokenDesired,\\n        uint amountTokenMin,\\n        uint amountETHMin,\\n        address to,\\n        uint deadline\\n    ) external payable returns (uint amountToken, uint amountETH, uint liquidity);\\n    function removeLiquidity(\\n        address tokenA,\\n        address tokenB,\\n        uint liquidity,\\n        uint amountAMin,\\n        uint amountBMin,\\n        address to,\\n        uint deadline\\n    ) external returns (uint amountA, uint amountB);\\n    function removeLiquidityETH(\\n        address token,\\n        uint liquidity,\\n        uint amountTokenMin,\\n        uint amountETHMin,\\n        address to,\\n        uint deadline\\n    ) external returns (uint amountToken, uint amountETH);\\n    function removeLiquidityWithPermit(\\n        address tokenA,\\n        address tokenB,\\n        uint liquidity,\\n        uint amountAMin,\\n        uint amountBMin,\\n        address to,\\n        uint deadline,\\n        bool approveMax, uint8 v, bytes32 r, bytes32 s\\n    ) external returns (uint amountA, uint amountB);\\n    function removeLiquidityETHWithPermit(\\n        address token,\\n        uint liquidity,\\n        uint amountTokenMin,\\n        uint amountETHMin,\\n        address to,\\n        uint deadline,\\n        bool approveMax, uint8 v, bytes32 r, bytes32 s\\n    ) external returns (uint amountToken, uint amountETH);\\n    function swapExactTokensForTokens(\\n        uint amountIn,\\n        uint amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint deadline\\n    ) external returns (uint[] memory amounts);\\n    function swapTokensForExactTokens(\\n        uint amountOut,\\n        uint amountInMax,\\n        address[] calldata path,\\n        address to,\\n        uint deadline\\n    ) external returns (uint[] memory amounts);\\n    function swapExactETHForTokens(uint amountOutMin, address[] calldata path, address to, uint deadline)\\n        external\\n        payable\\n        returns (uint[] memory amounts);\\n    function swapTokensForExactETH(uint amountOut, uint amountInMax, address[] calldata path, address to, uint deadline)\\n        external\\n        returns (uint[] memory amounts);\\n    function swapExactTokensForETH(uint amountIn, uint amountOutMin, address[] calldata path, address to, uint deadline)\\n        external\\n        returns (uint[] memory amounts);\\n    function swapETHForExactTokens(uint amountOut, address[] calldata path, address to, uint deadline)\\n        external\\n        payable\\n        returns (uint[] memory amounts);\\n\\n    function quote(uint amountA, uint reserveA, uint reserveB) external pure returns (uint amountB);\\n    function getAmountOut(uint amountIn, uint reserveIn, uint reserveOut) external pure returns (uint amountOut);\\n    function getAmountIn(uint amountOut, uint reserveIn, uint reserveOut) external pure returns (uint amountIn);\\n    function getAmountsOut(uint amountIn, address[] calldata path) external view returns (uint[] memory amounts);\\n    function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);\\n}\",\"keccak256\":\"0x12091adc186fe351c639dc62aa0b691f78c7bea054c27bbb4b58acd02e1b2ce7\",\"license\":\"GPL-3.0\"},\"@sushiswap/core/contracts/uniswapv2/interfaces/IUniswapV2Router02.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity >=0.6.2;\\n\\nimport './IUniswapV2Router01.sol';\\n\\ninterface IUniswapV2Router02 is IUniswapV2Router01 {\\n    function removeLiquidityETHSupportingFeeOnTransferTokens(\\n        address token,\\n        uint liquidity,\\n        uint amountTokenMin,\\n        uint amountETHMin,\\n        address to,\\n        uint deadline\\n    ) external returns (uint amountETH);\\n    function removeLiquidityETHWithPermitSupportingFeeOnTransferTokens(\\n        address token,\\n        uint liquidity,\\n        uint amountTokenMin,\\n        uint amountETHMin,\\n        address to,\\n        uint deadline,\\n        bool approveMax, uint8 v, bytes32 r, bytes32 s\\n    ) external returns (uint amountETH);\\n\\n    function swapExactTokensForTokensSupportingFeeOnTransferTokens(\\n        uint amountIn,\\n        uint amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint deadline\\n    ) external;\\n    function swapExactETHForTokensSupportingFeeOnTransferTokens(\\n        uint amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint deadline\\n    ) external payable;\\n    function swapExactTokensForETHSupportingFeeOnTransferTokens(\\n        uint amountIn,\\n        uint amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint deadline\\n    ) external;\\n}\",\"keccak256\":\"0x7e588378c1076243506b8164132e0dcccd468f31edb933a88ddb8d6c4063ab30\",\"license\":\"GPL-3.0\"},\"@sushiswap/core/contracts/uniswapv2/libraries/SafeMath.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity =0.6.12;\\n\\n// a library for performing overflow-safe math, courtesy of DappHub (https://github.com/dapphub/ds-math)\\n\\nlibrary SafeMathUniswap {\\n    function add(uint x, uint y) internal pure returns (uint z) {\\n        require((z = x + y) >= x, 'ds-math-add-overflow');\\n    }\\n\\n    function sub(uint x, uint y) internal pure returns (uint z) {\\n        require((z = x - y) <= x, 'ds-math-sub-underflow');\\n    }\\n\\n    function mul(uint x, uint y) internal pure returns (uint z) {\\n        require(y == 0 || (z = x * y) / y == x, 'ds-math-mul-overflow');\\n    }\\n}\\n\",\"keccak256\":\"0xbde2cf4655f2f21a4e6cc76c28cf88ade1d8150289c208d48662135be9d5dd97\",\"license\":\"GPL-3.0\"},\"@sushiswap/core/contracts/uniswapv2/libraries/UniswapV2Library.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity >=0.5.0;\\n\\nimport '../interfaces/IUniswapV2Pair.sol';\\n\\nimport \\\"./SafeMath.sol\\\";\\n\\nlibrary UniswapV2Library {\\n    using SafeMathUniswap for uint;\\n\\n    // returns sorted token addresses, used to handle return values from pairs sorted in this order\\n    function sortTokens(address tokenA, address tokenB) internal pure returns (address token0, address token1) {\\n        require(tokenA != tokenB, 'UniswapV2Library: IDENTICAL_ADDRESSES');\\n        (token0, token1) = tokenA < tokenB ? (tokenA, tokenB) : (tokenB, tokenA);\\n        require(token0 != address(0), 'UniswapV2Library: ZERO_ADDRESS');\\n    }\\n\\n    // calculates the CREATE2 address for a pair without making any external calls\\n    function pairFor(address factory, address tokenA, address tokenB) internal pure returns (address pair) {\\n        (address token0, address token1) = sortTokens(tokenA, tokenB);\\n        pair = address(uint(keccak256(abi.encodePacked(\\n                hex'ff',\\n                factory,\\n                keccak256(abi.encodePacked(token0, token1)),\\n                hex'e18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303' // init code hash\\n            ))));\\n    }\\n\\n    // fetches and sorts the reserves for a pair\\n    function getReserves(address factory, address tokenA, address tokenB) internal view returns (uint reserveA, uint reserveB) {\\n        (address token0,) = sortTokens(tokenA, tokenB);\\n        (uint reserve0, uint reserve1,) = IUniswapV2Pair(pairFor(factory, tokenA, tokenB)).getReserves();\\n        (reserveA, reserveB) = tokenA == token0 ? (reserve0, reserve1) : (reserve1, reserve0);\\n    }\\n\\n    // given some amount of an asset and pair reserves, returns an equivalent amount of the other asset\\n    function quote(uint amountA, uint reserveA, uint reserveB) internal pure returns (uint amountB) {\\n        require(amountA > 0, 'UniswapV2Library: INSUFFICIENT_AMOUNT');\\n        require(reserveA > 0 && reserveB > 0, 'UniswapV2Library: INSUFFICIENT_LIQUIDITY');\\n        amountB = amountA.mul(reserveB) / reserveA;\\n    }\\n\\n    // given an input amount of an asset and pair reserves, returns the maximum output amount of the other asset\\n    function getAmountOut(uint amountIn, uint reserveIn, uint reserveOut) internal pure returns (uint amountOut) {\\n        require(amountIn > 0, 'UniswapV2Library: INSUFFICIENT_INPUT_AMOUNT');\\n        require(reserveIn > 0 && reserveOut > 0, 'UniswapV2Library: INSUFFICIENT_LIQUIDITY');\\n        uint amountInWithFee = amountIn.mul(997);\\n        uint numerator = amountInWithFee.mul(reserveOut);\\n        uint denominator = reserveIn.mul(1000).add(amountInWithFee);\\n        amountOut = numerator / denominator;\\n    }\\n\\n    // given an output amount of an asset and pair reserves, returns a required input amount of the other asset\\n    function getAmountIn(uint amountOut, uint reserveIn, uint reserveOut) internal pure returns (uint amountIn) {\\n        require(amountOut > 0, 'UniswapV2Library: INSUFFICIENT_OUTPUT_AMOUNT');\\n        require(reserveIn > 0 && reserveOut > 0, 'UniswapV2Library: INSUFFICIENT_LIQUIDITY');\\n        uint numerator = reserveIn.mul(amountOut).mul(1000);\\n        uint denominator = reserveOut.sub(amountOut).mul(997);\\n        amountIn = (numerator / denominator).add(1);\\n    }\\n\\n    // performs chained getAmountOut calculations on any number of pairs\\n    function getAmountsOut(address factory, uint amountIn, address[] memory path) internal view returns (uint[] memory amounts) {\\n        require(path.length >= 2, 'UniswapV2Library: INVALID_PATH');\\n        amounts = new uint[](path.length);\\n        amounts[0] = amountIn;\\n        for (uint i; i < path.length - 1; i++) {\\n            (uint reserveIn, uint reserveOut) = getReserves(factory, path[i], path[i + 1]);\\n            amounts[i + 1] = getAmountOut(amounts[i], reserveIn, reserveOut);\\n        }\\n    }\\n\\n    // performs chained getAmountIn calculations on any number of pairs\\n    function getAmountsIn(address factory, uint amountOut, address[] memory path) internal view returns (uint[] memory amounts) {\\n        require(path.length >= 2, 'UniswapV2Library: INVALID_PATH');\\n        amounts = new uint[](path.length);\\n        amounts[amounts.length - 1] = amountOut;\\n        for (uint i = path.length - 1; i > 0; i--) {\\n            (uint reserveIn, uint reserveOut) = getReserves(factory, path[i - 1], path[i]);\\n            amounts[i - 1] = getAmountIn(amounts[i], reserveIn, reserveOut);\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x0f9b5380ff674e29e702eb9e472e728222fb3ec65f38aef03336c8a82e2ad80d\",\"license\":\"GPL-3.0\"},\"contracts/SushiClient.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.6.12;\\n\\nimport \\\"@sushiswap/core/contracts/uniswapv2/interfaces/IUniswapV2Router02.sol\\\";\\nimport \\\"@sushiswap/core/contracts/uniswapv2/libraries/UniswapV2Library.sol\\\";\\nimport \\\"@sushiswap/core/contracts/uniswapv2/interfaces/IUniswapV2Pair.sol\\\";\\nimport \\\"@sushiswap/core/contracts/uniswapv2/interfaces/IUniswapV2Factory.sol\\\";\\nimport \\\"@openzeppelin/contracts/token/ERC20/IERC20.sol\\\";\\n\\ncontract SushiClient {\\n    string public greeting;\\n\\n    IUniswapV2Router02 public sushiRouter;\\n    IUniswapV2Factory public sushiFactory;\\n    IERC20 public weth;\\n    IERC20 public usdc;\\n    IERC20 public dai;\\n    mapping(address => bool) public tokens;\\n\\n    uint24 public slippageNumerator = 250_000;\\n    uint24 public slippageDenominator = 1_000_000;\\n\\n    constructor() public {\\n        sushiRouter = IUniswapV2Router02(\\n            0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506\\n        );\\n        sushiFactory = IUniswapV2Factory(\\n            0xc35DADB65012eC5796536bD9864eD8773aBc74C4\\n        );\\n        weth = IERC20(0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6);\\n        usdc = IERC20(0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C);\\n        dai = IERC20(0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844);\\n        tokens[address(weth)] = true;\\n        tokens[address(usdc)] = true;\\n        tokens[address(dai)] = true;\\n        weth.approve(address(sushiRouter), 2**256 - 1);\\n        usdc.approve(address(sushiRouter), 2**256 - 1);\\n        dai.approve(address(sushiRouter), 2**256 - 1);\\n    }\\n\\n    function swap(\\n        address _from,\\n        address _to,\\n        uint256 _amount\\n    ) external {\\n        require(tokens[_from] && tokens[_to], \\\"Token not supported\\\");\\n        require(_amount > 0, \\\"Amount must be greater than 0\\\");\\n        IERC20(_from).transferFrom(msg.sender, address(this), _amount);\\n        address[] memory path = new address[](2);\\n        path[0] = _from;\\n        path[1] = _to;\\n        // IUniswapV2Factory factory = IUniswapV2Factory(sushi.factory());\\n        // address pairAddress = factory.getPair(_from, _to);\\n        // require(pairAddress != address(0), \\\"This pool does not exist\\\");\\n\\n        uint256 amountOut = getAmountOut(path, _amount);\\n        sushiRouter.swapExactTokensForTokens(\\n            _amount,\\n            amountOut,\\n            path,\\n            msg.sender,\\n            block.timestamp\\n        );\\n    }\\n\\n    function getAmountOut(address[] memory path, uint256 amountIn)\\n        public\\n        view\\n        returns (uint256)\\n    {\\n        uint256 amountOut = UniswapV2Library.getAmountsOut(\\n            address(sushiFactory),\\n            amountIn,\\n            path\\n        )[0];\\n        uint256 amountOutLessSlippage = (amountOut *\\n            (slippageDenominator - slippageNumerator)) / slippageDenominator;\\n        return amountOutLessSlippage;\\n    }\\n}\\n\",\"keccak256\":\"0x9673cda8ef777cc13e66d47e0ea9d7fdfdaa63e193702aea21a6f9a9329c8c6a\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x6080604052600780546203d09062ffffff199091161765ffffff0000001916650f424000000017905534801561003457600080fd5b50600180546001600160a01b0319908116731b02da8cb0d097eb8d57a175b88c7d8b4799750617825560028054821673c35dadb65012ec5796536bd9864ed8773abc74c417905560038054821673b4fbf271143f4fbf7b91a5ded31805e42b2208d61780825560048054841673d87ba7a50b2e7e660f678a895e4b72e7cb4ccd9c178155600580549094167311fe4b6ae13d2a6055c8d9cf65c55bac32b5d8441784556001600160a01b039182166000908152600660209081526040808320805460ff199081168a17909155845486168452818420805482168a1790559654851683528083208054909716881790965593549554855163095ea7b360e01b81529084169281019290925260001960248301529351949091169363095ea7b393604480840194938390030190829087803b15801561017057600080fd5b505af1158015610184573d6000803e3d6000fd5b505050506040513d602081101561019a57600080fd5b5050600480546001546040805163095ea7b360e01b81526001600160a01b039283169481019490945260001960248501525191169163095ea7b39160448083019260209291908290030181600087803b1580156101f657600080fd5b505af115801561020a573d6000803e3d6000fd5b505050506040513d602081101561022057600080fd5b50506005546001546040805163095ea7b360e01b81526001600160a01b03928316600482015260001960248201529051919092169163095ea7b39160448083019260209291908290030181600087803b15801561027c57600080fd5b505af1158015610290573d6000803e3d6000fd5b505050506040513d60208110156102a657600080fd5b5050610d87806102b76000396000f3fe608060405234801561001057600080fd5b50600436106100a95760003560e01c80636d13582c116100715780636d13582c146101b9578063d4840641146101c1578063df791e50146101c9578063e486033914610201578063ef690cc01461023b578063f4b9fa75146102b8576100a9565b8063147bd3af146100ae57806322984b24146100ce5780633e413bee146100f25780633fc8cef3146100fa57806351f036f014610102575b600080fd5b6100b66102c0565b6040805162ffffff9092168252519081900360200190f35b6100d66102cb565b604080516001600160a01b039092168252519081900360200190f35b6100d66102da565b6100d66102e9565b6101a76004803603604081101561011857600080fd5b81019060208101813564010000000081111561013357600080fd5b82018360208201111561014557600080fd5b8035906020019184602083028401116401000000008311171561016757600080fd5b91908080602002602001604051908101604052809392919081815260200183836020028082843760009201919091525092955050913592506102f8915050565b60408051918252519081900360200190f35b6100d661035c565b6100b661036b565b6101ff600480360360608110156101df57600080fd5b506001600160a01b0381358116916020810135909116906040013561037d565b005b6102276004803603602081101561021757600080fd5b50356001600160a01b03166106e5565b604080519115158252519081900360200190f35b6102436106fa565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561027d578181015183820152602001610265565b50505050905090810190601f1680156102aa5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100d6610788565b60075462ffffff1681565b6002546001600160a01b031681565b6004546001600160a01b031681565b6003546001600160a01b031681565b6002546000908190610314906001600160a01b03168486610797565b60008151811061032057fe5b602090810291909101015160075490915060009062ffffff63010000008204811691811682031683028161035057fe5b04925050505b92915050565b6001546001600160a01b031681565b6007546301000000900462ffffff1681565b6001600160a01b03831660009081526006602052604090205460ff1680156103bd57506001600160a01b03821660009081526006602052604090205460ff165b610404576040805162461bcd60e51b8152602060048201526013602482015272151bdad95b881b9bdd081cdd5c1c1bdc9d1959606a1b604482015290519081900360640190fd5b60008111610459576040805162461bcd60e51b815260206004820152601d60248201527f416d6f756e74206d7573742062652067726561746572207468616e2030000000604482015290519081900360640190fd5b604080516323b872dd60e01b81523360048201523060248201526044810183905290516001600160a01b038516916323b872dd9160648083019260209291908290030181600087803b1580156104ae57600080fd5b505af11580156104c2573d6000803e3d6000fd5b505050506040513d60208110156104d857600080fd5b50506040805160028082526060808301845292602083019080368337019050509050838160008151811061050857fe5b60200260200101906001600160a01b031690816001600160a01b031681525050828160018151811061053657fe5b60200260200101906001600160a01b031690816001600160a01b031681525050600061056282846102f8565b6001546040516338ed173960e01b815260048101868152602482018490523360648301819052426084840181905260a060448501908152885160a486015288519697506001600160a01b03909516956338ed1739958a9589958b95949390929160c401906020808801910280838360005b838110156105eb5781810151838201526020016105d3565b505050509050019650505050505050600060405180830381600087803b15801561061457600080fd5b505af1158015610628573d6000803e3d6000fd5b505050506040513d6000823e601f3d908101601f19168201604052602081101561065157600080fd5b810190808051604051939291908464010000000082111561067157600080fd5b90830190602082018581111561068657600080fd5b82518660208202830111640100000000821117156106a357600080fd5b82525081516020918201928201910280838360005b838110156106d05781810151838201526020016106b8565b50505050905001604052505050505050505050565b60066020526000908152604090205460ff1681565b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156107805780601f1061075557610100808354040283529160200191610780565b820191906000526020600020905b81548152906001019060200180831161076357829003601f168201915b505050505081565b6005546001600160a01b031681565b60606002825110156107f0576040805162461bcd60e51b815260206004820152601e60248201527f556e697377617056324c6962726172793a20494e56414c49445f504154480000604482015290519081900360640190fd5b815167ffffffffffffffff8111801561080857600080fd5b50604051908082528060200260200182016040528015610832578160200160208202803683370190505b509050828160008151811061084357fe5b60200260200101818152505060005b60018351038110156108db576000806108958786858151811061087157fe5b602002602001015187866001018151811061088857fe5b60200260200101516108e3565b915091506108b78484815181106108a857fe5b602002602001015183836109b1565b8484600101815181106108c657fe5b60209081029190910101525050600101610852565b509392505050565b60008060006108f28585610a89565b509050600080610903888888610b67565b6001600160a01b0316630902f1ac6040518163ffffffff1660e01b815260040160606040518083038186803b15801561093b57600080fd5b505afa15801561094f573d6000803e3d6000fd5b505050506040513d606081101561096557600080fd5b5080516020909101516dffffffffffffffffffffffffffff91821693501690506001600160a01b038781169084161461099f5780826109a2565b81815b90999098509650505050505050565b60008084116109f15760405162461bcd60e51b815260040180806020018281038252602b815260200180610d27602b913960400191505060405180910390fd5b600083118015610a015750600082115b610a3c5760405162461bcd60e51b8152600401808060200182810382526028815260200180610cff6028913960400191505060405180910390fd5b6000610a4a856103e5610c27565b90506000610a588285610c27565b90506000610a7283610a6c886103e8610c27565b90610c8a565b9050808281610a7d57fe5b04979650505050505050565b600080826001600160a01b0316846001600160a01b03161415610add5760405162461bcd60e51b8152600401808060200182810382526025815260200180610cda6025913960400191505060405180910390fd5b826001600160a01b0316846001600160a01b031610610afd578284610b00565b83835b90925090506001600160a01b038216610b60576040805162461bcd60e51b815260206004820152601e60248201527f556e697377617056324c6962726172793a205a45524f5f414444524553530000604482015290519081900360640190fd5b9250929050565b6000806000610b768585610a89565b604080516bffffffffffffffffffffffff19606094851b811660208084019190915293851b81166034830152825160288184030181526048830184528051908501206001600160f81b031960688401529a90941b9093166069840152607d8301989098527fe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303609d808401919091528851808403909101815260bd909201909752805196019590952095945050505050565b6000811580610c4257505080820282828281610c3f57fe5b04145b610356576040805162461bcd60e51b815260206004820152601460248201527364732d6d6174682d6d756c2d6f766572666c6f7760601b604482015290519081900360640190fd5b80820182811015610356576040805162461bcd60e51b815260206004820152601460248201527364732d6d6174682d6164642d6f766572666c6f7760601b604482015290519081900360640190fdfe556e697377617056324c6962726172793a204944454e544943414c5f414444524553534553556e697377617056324c6962726172793a20494e53554646494349454e545f4c4951554944495459556e697377617056324c6962726172793a20494e53554646494349454e545f494e5055545f414d4f554e54a264697066735822122050dc2f38afdcad3dd8ddd894fcaa17f6f8aa645b7b67a5579ffd717e6d0e00f564736f6c634300060c0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100a95760003560e01c80636d13582c116100715780636d13582c146101b9578063d4840641146101c1578063df791e50146101c9578063e486033914610201578063ef690cc01461023b578063f4b9fa75146102b8576100a9565b8063147bd3af146100ae57806322984b24146100ce5780633e413bee146100f25780633fc8cef3146100fa57806351f036f014610102575b600080fd5b6100b66102c0565b6040805162ffffff9092168252519081900360200190f35b6100d66102cb565b604080516001600160a01b039092168252519081900360200190f35b6100d66102da565b6100d66102e9565b6101a76004803603604081101561011857600080fd5b81019060208101813564010000000081111561013357600080fd5b82018360208201111561014557600080fd5b8035906020019184602083028401116401000000008311171561016757600080fd5b91908080602002602001604051908101604052809392919081815260200183836020028082843760009201919091525092955050913592506102f8915050565b60408051918252519081900360200190f35b6100d661035c565b6100b661036b565b6101ff600480360360608110156101df57600080fd5b506001600160a01b0381358116916020810135909116906040013561037d565b005b6102276004803603602081101561021757600080fd5b50356001600160a01b03166106e5565b604080519115158252519081900360200190f35b6102436106fa565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561027d578181015183820152602001610265565b50505050905090810190601f1680156102aa5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100d6610788565b60075462ffffff1681565b6002546001600160a01b031681565b6004546001600160a01b031681565b6003546001600160a01b031681565b6002546000908190610314906001600160a01b03168486610797565b60008151811061032057fe5b602090810291909101015160075490915060009062ffffff63010000008204811691811682031683028161035057fe5b04925050505b92915050565b6001546001600160a01b031681565b6007546301000000900462ffffff1681565b6001600160a01b03831660009081526006602052604090205460ff1680156103bd57506001600160a01b03821660009081526006602052604090205460ff165b610404576040805162461bcd60e51b8152602060048201526013602482015272151bdad95b881b9bdd081cdd5c1c1bdc9d1959606a1b604482015290519081900360640190fd5b60008111610459576040805162461bcd60e51b815260206004820152601d60248201527f416d6f756e74206d7573742062652067726561746572207468616e2030000000604482015290519081900360640190fd5b604080516323b872dd60e01b81523360048201523060248201526044810183905290516001600160a01b038516916323b872dd9160648083019260209291908290030181600087803b1580156104ae57600080fd5b505af11580156104c2573d6000803e3d6000fd5b505050506040513d60208110156104d857600080fd5b50506040805160028082526060808301845292602083019080368337019050509050838160008151811061050857fe5b60200260200101906001600160a01b031690816001600160a01b031681525050828160018151811061053657fe5b60200260200101906001600160a01b031690816001600160a01b031681525050600061056282846102f8565b6001546040516338ed173960e01b815260048101868152602482018490523360648301819052426084840181905260a060448501908152885160a486015288519697506001600160a01b03909516956338ed1739958a9589958b95949390929160c401906020808801910280838360005b838110156105eb5781810151838201526020016105d3565b505050509050019650505050505050600060405180830381600087803b15801561061457600080fd5b505af1158015610628573d6000803e3d6000fd5b505050506040513d6000823e601f3d908101601f19168201604052602081101561065157600080fd5b810190808051604051939291908464010000000082111561067157600080fd5b90830190602082018581111561068657600080fd5b82518660208202830111640100000000821117156106a357600080fd5b82525081516020918201928201910280838360005b838110156106d05781810151838201526020016106b8565b50505050905001604052505050505050505050565b60066020526000908152604090205460ff1681565b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156107805780601f1061075557610100808354040283529160200191610780565b820191906000526020600020905b81548152906001019060200180831161076357829003601f168201915b505050505081565b6005546001600160a01b031681565b60606002825110156107f0576040805162461bcd60e51b815260206004820152601e60248201527f556e697377617056324c6962726172793a20494e56414c49445f504154480000604482015290519081900360640190fd5b815167ffffffffffffffff8111801561080857600080fd5b50604051908082528060200260200182016040528015610832578160200160208202803683370190505b509050828160008151811061084357fe5b60200260200101818152505060005b60018351038110156108db576000806108958786858151811061087157fe5b602002602001015187866001018151811061088857fe5b60200260200101516108e3565b915091506108b78484815181106108a857fe5b602002602001015183836109b1565b8484600101815181106108c657fe5b60209081029190910101525050600101610852565b509392505050565b60008060006108f28585610a89565b509050600080610903888888610b67565b6001600160a01b0316630902f1ac6040518163ffffffff1660e01b815260040160606040518083038186803b15801561093b57600080fd5b505afa15801561094f573d6000803e3d6000fd5b505050506040513d606081101561096557600080fd5b5080516020909101516dffffffffffffffffffffffffffff91821693501690506001600160a01b038781169084161461099f5780826109a2565b81815b90999098509650505050505050565b60008084116109f15760405162461bcd60e51b815260040180806020018281038252602b815260200180610d27602b913960400191505060405180910390fd5b600083118015610a015750600082115b610a3c5760405162461bcd60e51b8152600401808060200182810382526028815260200180610cff6028913960400191505060405180910390fd5b6000610a4a856103e5610c27565b90506000610a588285610c27565b90506000610a7283610a6c886103e8610c27565b90610c8a565b9050808281610a7d57fe5b04979650505050505050565b600080826001600160a01b0316846001600160a01b03161415610add5760405162461bcd60e51b8152600401808060200182810382526025815260200180610cda6025913960400191505060405180910390fd5b826001600160a01b0316846001600160a01b031610610afd578284610b00565b83835b90925090506001600160a01b038216610b60576040805162461bcd60e51b815260206004820152601e60248201527f556e697377617056324c6962726172793a205a45524f5f414444524553530000604482015290519081900360640190fd5b9250929050565b6000806000610b768585610a89565b604080516bffffffffffffffffffffffff19606094851b811660208084019190915293851b81166034830152825160288184030181526048830184528051908501206001600160f81b031960688401529a90941b9093166069840152607d8301989098527fe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303609d808401919091528851808403909101815260bd909201909752805196019590952095945050505050565b6000811580610c4257505080820282828281610c3f57fe5b04145b610356576040805162461bcd60e51b815260206004820152601460248201527364732d6d6174682d6d756c2d6f766572666c6f7760601b604482015290519081900360640190fd5b80820182811015610356576040805162461bcd60e51b815260206004820152601460248201527364732d6d6174682d6164642d6f766572666c6f7760601b604482015290519081900360640190fdfe556e697377617056324c6962726172793a204944454e544943414c5f414444524553534553556e697377617056324c6962726172793a20494e53554646494349454e545f4c4951554944495459556e697377617056324c6962726172793a20494e53554646494349454e545f494e5055545f414d4f554e54a264697066735822122050dc2f38afdcad3dd8ddd894fcaa17f6f8aa645b7b67a5579ffd717e6d0e00f564736f6c634300060c0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 1344,
+        "contract": "contracts/SushiClient.sol:SushiClient",
+        "label": "greeting",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_string_storage"
+      },
+      {
+        "astId": 1346,
+        "contract": "contracts/SushiClient.sol:SushiClient",
+        "label": "sushiRouter",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_contract(IUniswapV2Router02)788"
+      },
+      {
+        "astId": 1348,
+        "contract": "contracts/SushiClient.sol:SushiClient",
+        "label": "sushiFactory",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_contract(IUniswapV2Factory)150"
+      },
+      {
+        "astId": 1350,
+        "contract": "contracts/SushiClient.sol:SushiClient",
+        "label": "weth",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_contract(IERC20)77"
+      },
+      {
+        "astId": 1352,
+        "contract": "contracts/SushiClient.sol:SushiClient",
+        "label": "usdc",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_contract(IERC20)77"
+      },
+      {
+        "astId": 1354,
+        "contract": "contracts/SushiClient.sol:SushiClient",
+        "label": "dai",
+        "offset": 0,
+        "slot": "5",
+        "type": "t_contract(IERC20)77"
+      },
+      {
+        "astId": 1358,
+        "contract": "contracts/SushiClient.sol:SushiClient",
+        "label": "tokens",
+        "offset": 0,
+        "slot": "6",
+        "type": "t_mapping(t_address,t_bool)"
+      },
+      {
+        "astId": 1361,
+        "contract": "contracts/SushiClient.sol:SushiClient",
+        "label": "slippageNumerator",
+        "offset": 0,
+        "slot": "7",
+        "type": "t_uint24"
+      },
+      {
+        "astId": 1364,
+        "contract": "contracts/SushiClient.sol:SushiClient",
+        "label": "slippageDenominator",
+        "offset": 3,
+        "slot": "7",
+        "type": "t_uint24"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_contract(IERC20)77": {
+        "encoding": "inplace",
+        "label": "contract IERC20",
+        "numberOfBytes": "20"
+      },
+      "t_contract(IUniswapV2Factory)150": {
+        "encoding": "inplace",
+        "label": "contract IUniswapV2Factory",
+        "numberOfBytes": "20"
+      },
+      "t_contract(IUniswapV2Router02)788": {
+        "encoding": "inplace",
+        "label": "contract IUniswapV2Router02",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_address,t_bool)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => bool)",
+        "numberOfBytes": "32",
+        "value": "t_bool"
+      },
+      "t_string_storage": {
+        "encoding": "bytes",
+        "label": "string",
+        "numberOfBytes": "32"
+      },
+      "t_uint24": {
+        "encoding": "inplace",
+        "label": "uint24",
+        "numberOfBytes": "3"
+      }
+    }
+  }
+}

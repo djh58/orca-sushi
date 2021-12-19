@@ -19,7 +19,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 // Go to https://hardhat.org/config/ to learn more
 const config: HardhatUserConfig = {
   solidity: {
-    version: "0.8.9",
+    version: "0.6.12",
     settings: {
       optimizer: {
         enabled: true,
@@ -28,20 +28,15 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    rinkeby: {
-      url: envconfig.rinkeby.provider_url,
-      //   accounts: [`0x${envconfig.rinkeby.private_key}`],
-    },
-    mainnet: {
-      url: envconfig.mainnet.provider_url,
-      //   accounts: [`0x${envconfig.mainnet.private_key}`],
+    goerli: {
+      url: envconfig.goerli.provider_url,
+      accounts: [`0x${envconfig.goerli.private_key}`],
     },
   },
   namedAccounts: {
     deployer: {
       default: 0,
-      rinkeby: `privatekey://${envconfig.rinkeby.private_key}`,
-      mainnet: `privatekey://${envconfig.mainnet.private_key}`,
+      goerli: `privatekey://${envconfig.goerli.private_key}`,
     },
   },
   typechain: {
