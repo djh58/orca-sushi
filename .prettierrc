@@ -8,7 +8,7 @@
       "files": "*.sol",
       "options": {
         "printWidth": 80,
-        "compiler": "0.8.9",
+        "compiler": "0.6.12",
         "tabWidth": 4,
         "useTabs": false,
         "singleQuote": false,
