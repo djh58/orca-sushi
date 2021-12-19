@@ -42,7 +42,7 @@ contract SushiClient {
         address _from,
         address _to,
         uint256 _amount
-    ) external {
+    ) internal {
         require(tokens[_from] && tokens[_to], "Token not supported");
         require(_amount > 0, "Amount must be greater than 0");
         IERC20(_from).transferFrom(msg.sender, address(this), _amount);
@@ -61,6 +61,34 @@ contract SushiClient {
             msg.sender,
             block.timestamp
         );
+    }
+
+    // batch swap - take list of pairs and amounts and swap them all
+    function batchSwap(
+        address[] memory _from,
+        address[] memory _to,
+        uint256[] memory _amount
+    ) external {
+        require(
+            _from.length == _to.length && _from.length == _amount.length,
+            "Arrays must be the same length"
+        );
+
+        require(_from.length > 0, "Arrays must contain at least one element");
+
+        for (uint256 i = 0; i < _from.length; i++) {
+            swap(_from[i], _to[i], _amount[i]);
+        }
+    }
+
+    function batchSybilSwap(
+        address _from,
+        address _to,
+        uint256[] memory _amount
+    ) external {
+        for (uint256 i = 0; i < _amount.length; i++) {
+            swap(_from, _to, _amount[i]);
+        }
     }
 
     function getAmountOut(address[] memory path, uint256 amountIn)

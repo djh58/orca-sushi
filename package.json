@@ -16,17 +16,24 @@
     "size": "npx hardhat size-contracts"
   },
   "devDependencies": {
+    "@certusone/wormhole-sdk": "^0.1.4",
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.11",
     "@openzeppelin/contracts": "^3.1.0",
+    "@orca-so/sdk": "^1.2.7",
+    "@solana/spl-token-registry": "^0.2.819",
+    "@solana/web3.js": "^1.31.0",
+    "@sushiswap/core": "^1.4.2",
     "@typechain/ethers-v5": "^8.0.5",
     "@typechain/hardhat": "^3.0.0",
     "@types/chai": "^4.2.22",
     "@types/chai-as-promised": "^7.1.4",
     "@types/mocha": "^9.0.0",
+    "@types/mz": "^2.7.4",
     "@types/node": "^16.11.7",
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
     "chai-ethers": "^0.0.1",
+    "decimal.js": "^10.3.1",
     "dotenv": "^10.0.0",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.1",
@@ -41,13 +48,9 @@
     "ts-generator": "^0.1.1",
     "ts-node": "^10.4.0",
     "typechain": "^6.0.5",
-    "typescript": "^4.4.4",
-    "@sushiswap/core": "^1.4.2",
-    "@types/mz": "^2.7.4",
-    "@certusone/wormhole-sdk": "^0.1.4",
-    "@orca-so/sdk": "^1.2.7",
-    "@solana/spl-token-registry": "^0.2.819",
-    "@solana/web3.js": "^1.31.0",
-    "decimal.js": "^10.3.1"
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
   }
 }
